@@ -1,6 +1,6 @@
 <div align="center">
 
-![logo](https://github.com/frasertheking/blindpaint/blob/main/images/title.png?raw=true)
+![logo](https://github.com/frasertheking/snowfall_pca/blob/main/images/title.png?raw=true)
 
 Primary Modes of Northern Hemisphere Snowfall Particle Size Distributions, maintained by [Fraser King](https://frasertheking.com/)
 
@@ -18,7 +18,7 @@ This project is currently being written into a journal article for the [Journal 
 Snowfall is a critical contributor to the global water-energy budget, with important connections to water resource management, flood mitigation, and ecosystem sustainability. This research enhances our understanding of varying snow particle size distributions in the Northern Hemisphere, offering valuable new insights for improving future remote sensing-based snowfall retrieval algorithms. Using a statistical technique called Principal Component Analysis, we found that 95\% of the variability in observed snowfall could be explained by three primary features: how intense the snowfall is, how dense the particles are, and the depth of the storm. We identified six unique snowfall groups, each with its own set of traits, such as the snow being light and fluffy, or heavy and packed. By linking these traits to external environmental observations, we can better understand the driving physical mechanisms within each group.
 
 This code repository holds the microphysical data extraction and processing scripts, the PCA code, plotting/visualization calls and ancillary analysis notebooks. 
-![inpainting output](https://github.com/frasertheking/blindpaint/blob/main/images/pca.png?raw=true)
+![PCA](https://github.com/frasertheking/snowfall_pca/blob/main/images/pca.png?raw=true)
 
 ## Data Sources
 
@@ -28,7 +28,7 @@ The data for this project is hosted online on UM's DeepBlue repository: https://
 
 We have collected PIP microphysical data from a variety of measurement locations across the northern hemisphere. Data originally in a proprietary ASCII format has been converted to the more universally recognized NetCDF-4 format for ease of sharing and compatibility within the academic community. The conversion process, undertaken using a combination of bash and Python, ensures broader compatibility with various data analysis tools and platforms. A quality assurance (QA) procedure has been undertaken to ensure the integrity of the data. Post QA, the data is transformed into daily NetCDF-4 files following the Climate and Forecast (CF) conventions (version 1.10) and compressed with a level 2 deflation for optimized file size. Additional details into the data curation process can be found in our journal article publication.
 
-![data overview](https://github.com/frasertheking/blindpaint/blob/main/images/fig01.png?raw=true)
+![data overview](https://github.com/frasertheking/snowfall_pca/blob/main/images/fig01.png?raw=true)
 
 ## Installation
 
